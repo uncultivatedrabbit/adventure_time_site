@@ -1,3 +1,61 @@
+/* global */
+
 body {
   background-color: pink;
+}
+
+
+/* navbar */
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-toggler {
+      display: none;
+    }
+  }
+
+
+/* header */
+@media (min-width: 992px){
+  header.landing-page {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 72px;
+    padding-bottom: 0;
+  }
+}
+
+header.landing-page{
+  background: linear-gradient(to bottom,rgba(106, 136, 98, 0) 0,rgba(104, 131, 95, 0.685) 100%),url(../images/landing-page-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+}
+
+
+/* character section */
+section.page-section{
+  padding: 50px;
+}
+
+/* button styles */
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary{
+  color: #fff;
+  background-color: #ee3e0d;
+  border-color: #e23a0d;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: red;
+  border-color: #ee3e0d;
+}
+
+.btn-xl {
+  padding: 1.25rem 2.25rem;
+  font-size: .85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 10rem;
+  opacity: .7;
 }
