@@ -1,16 +1,41 @@
 /* global */
 
 body {
-  background-color: pink;
+  background-color: whitesmoke;
+  font-family: 'Istok Web', sans-serif;
+
 }
 
 
 /* navbar */
+
+.navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link{
+  color: #222f3e;
+  font-size: 24px;
+}
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-toggler {
       display: none;
     }
   }
+
+  @media (min-width: 992px){
+    .navbar-scrolled {
+      -webkit-box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15);
+      box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15);
+      background-color: #fff!important;
+      opacity: .8;
+  }
+}
+
+  @media (min-width: 992px){
+    #mainNav {
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      background-color: transparent;
+    }
+  }
+
 
 
 /* header */
@@ -24,7 +49,7 @@ body {
 }
 
 header.landing-page{
-  background: linear-gradient(to bottom,rgba(106, 136, 98, 0) 0,rgba(104, 131, 95, 0.685) 100%),url(../images/landing-page-image.jpg);
+  background: linear-gradient(to bottom,rgba(98, 127, 136, 0.377) 0,rgba(95, 129, 131, 0.822) 100%),url(../images/landing-page-image.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -32,10 +57,11 @@ header.landing-page{
 }
 
 
-/* character section */
+/* interlude section */
 section.page-section{
   padding: 50px;
 }
+
 
 /* button styles */
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary{
@@ -57,5 +83,7 @@ section.page-section{
   text-transform: uppercase;
   border: none;
   border-radius: 10rem;
-  opacity: .7;
+  
 }
+
+

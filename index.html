@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Istok+Web" rel="stylesheet">
    <link href="css/style.css" rel="stylesheet">
   </head>
   <body id="page-top">
 
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="main-nav">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
      <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Welcome to Adventure Time</a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top"><b>Welcome to Adventure Time</b></a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar-responsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
       </button>
@@ -41,35 +42,59 @@
             <h1 class="text-white font-weight-bold">Learn About All Things Ooo</h1>
             <hr class="divider my-4">
           </div>
-          <div class="col-lg-8 align-self-baseline">
-            <p class="text-white-75 font-weight-light mb-5">Read about all your favorite characters, browse through maps, and so much more!</p>
+          <div class="col-lg-8 align-self-baseline main-button">
+            <p class="text-white-75 font-weight-bold mb-5">Read about all your favorite characters, browse through maps, and so much more!</p>
             <a class="btn btn-primary btn-xl js-scroll-trigger" href="#">Learn More</a>
           </div>
         </div>
       </div>
     </header>
-    <!-- character selection section -->
+
+    <!-- Interlude section -->
     <section class="page-section bg-primary" id="character-section">
       <div class="container">
           <div class="row justify-content-center">
               <div class="col-lg-8 text-center">
-                <h2 class="text-white mt-0">Which Character Did You Want to Read About?</h2>
+                <h2 class="text-white mt-0">Who Did You Want to Learn About?</h2>
                 <hr class="divider light my-4">
-                <input list="characters" value="" class="col-sm-6 custom-select custom-select-sm">
-                    <datalist id="characters">
-                      <option value="Finn the Human">
-                      <option value="Jake the Dog">
-                      <option value="Princess Bubblegum">
-                    </datalist>
-                  <input type="submit">
+                <div class="row">
+                    <div class="col col-12">
+                        <div class="dropdown show">
+                            <a class="btn btn-secondary btn-xl dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Characters of Ooo
+                            </a>
+                           <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                              <a class="dropdown-item" href="../adventure_time_site/characters/finn.html">Finn the Human</a>
+                              <a class="dropdown-item" href="#">Jake the Dog</a>
+                              <a class="dropdown-item" href="#">Marceline the Vampire Queen</a>
+                              <a class="dropdown-item" href="#">Princess Bubblegum</a>
+                            </div>
+                          </div>
+                    </div>
+                  </div>
               </div>
             </div>
           </div>
     </section>
 
+    <!-- Character List Section -->
+    <section id="character-list">
+      <div class="container">
+        
+      
+      </div>
+    </section>
+  
+    <!-- Footer -->
+    <footer class="bg-light py-5">
+      <div class="container">
+        <div class="small text-center text-muted">Copyright &copy; 2019 - Brandon Melendez</div>
+      </div>
+    </footer>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
   </body>
 </html>
