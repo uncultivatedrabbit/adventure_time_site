@@ -10,6 +10,10 @@ p{
   font-size: 24px;
 }
 
+h1, button{
+  font-family: 'Finger Paint', cursive;
+}
+
 
 /* navbar */
 
@@ -24,6 +28,9 @@ p{
 }
 
 .navbar-light .navbar-nav .nav-link::before{
+  content:" | ";
+}
+.navbar-light .navbar-nav .nav-link::after{
   content:" | ";
 }
 
@@ -112,7 +119,7 @@ section.page-section{
   
 }
 
-/* map of Ooo */
+/* images */
 img#ooo{
   height: 100%;
   width: 100%;
@@ -124,3 +131,34 @@ img#ooo{
   -webkit-box-shadow: 3px 3px 5px 6px #222f3e;
   box-shadow:         3px 3px 5px 6px #222f3e;
 }
+
+.jumbotron.history{
+  background: url("/images/history-background.jpg");
+  margin-top: 6.4em;
+  margin-bottom: 1em;
+  height: 600px; 
+  background-repeat: no-repeat;
+  color: white;
+  -moz-box-shadow:    3px 3px 5px 6px #222f3e;
+  -webkit-box-shadow: 3px 3px 5px 6px #222f3e;
+  box-shadow:         3px 3px 5px 6px #222f3e;
+}
+
+/* history of OOO styling */
+.list-group-flush .list-group-item::before{
+  content: "\273A  ";
+}
+
+.btn-link{
+  color: black;
+  width: 100%;
+}
+
+.btn-link:hover{
+  color:black;
+  text-decoration: none;
+  -moz-box-shadow:    3px 3px 5px 6px #222f3e;
+  -webkit-box-shadow: 3px 3px 5px 6px #222f3e;
+  box-shadow:         3px 3px 5px 6px #222f3e;
+}
+
