@@ -6,6 +6,10 @@ body {
 
 }
 
+p{
+  font-size: 24px;
+}
+
 
 /* navbar */
 
@@ -13,6 +17,16 @@ body {
   color: #222f3e;
   font-size: 24px;
 }
+.navbar-light .navbar-nav .nav-link:hover{
+  -moz-box-shadow:    3px 3px 5px 6px #222f3e;
+  -webkit-box-shadow: 3px 3px 5px 6px #222f3e;
+  box-shadow:         3px 3px 5px 6px #222f3e;
+}
+
+.navbar-light .navbar-nav .nav-link::before{
+  content:" | ";
+}
+
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-toggler {
       display: none;
@@ -56,10 +70,22 @@ header.landing-page{
   background-attachment: scroll;
 }
 
+section#break{
+  height: auto;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  background: linear-gradient(#fff, #000, #fff);
+}
 
-/* interlude section */
+img#bmo-1{
+  width: 40%;
+  height: auto;
+}
+/* selection section */
 section.page-section{
-  padding: 50px;
+  padding: 100px;
+  height: 550px;
+  background: url("/adventure_time_site/images/interlude-background.jpg");
 }
 
 
@@ -86,4 +112,15 @@ section.page-section{
   
 }
 
-
+/* map of Ooo */
+img#ooo{
+  height: 100%;
+  width: 100%;
+  margin-top: 6em;
+  margin-bottom: 5em;
+  
+  border: 1px solid #222f3e;
+  -moz-box-shadow:    3px 3px 5px 6px #222f3e;
+  -webkit-box-shadow: 3px 3px 5px 6px #222f3e;
+  box-shadow:         3px 3px 5px 6px #222f3e;
+}
