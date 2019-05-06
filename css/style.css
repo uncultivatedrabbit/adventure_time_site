@@ -9,7 +9,11 @@ body {
 p{
   font-size: 24px;
 }
-
+p.character-bios{
+  font-size: 16px;
+  
+  
+}
 h1, button{
   font-family: 'Finger Paint', cursive;
 }
@@ -89,11 +93,26 @@ img#bmo-1{
   width: 40%;
   height: auto;
 }
+
+/* BMO interlude section */
+p.py-4{
+  font-size: 40px;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  text-shadow: 1px 1px 3px black;
+} 
+
+.blockquote-footer{
+  font-size: 24px;
+  font-family: 'Orbitron', sans-serif;
+}
+
 /* selection section */
 section.page-section{
   padding: 100px;
   height: 550px;
   background: url("/images/interlude-background.jpg");
+  
 }
 
 
@@ -134,7 +153,7 @@ img#ooo{
 }
 
 .jumbotron.history{
-  background: url("images/history-background.jpg");
+  background: url("/images/history-background.jpg");
   margin-top: 6.4em;
   margin-bottom: 1em;
   height: 600px; 
@@ -143,6 +162,28 @@ img#ooo{
   -moz-box-shadow:    3px 3px 5px 6px #222f3e;
   -webkit-box-shadow: 3px 3px 5px 6px #222f3e;
   box-shadow:         3px 3px 5px 6px #222f3e;
+}
+
+.jumbotron.characters{
+  background: url("/images/characters-background.jpg");
+  margin-top: 6.4em;
+  margin-bottom: 1em;
+  height: 900px; 
+  background-repeat: no-repeat;
+  color: white;
+  -moz-box-shadow:    3px 3px 5px 6px #222f3e;
+  -webkit-box-shadow: 3px 3px 5px 6px #222f3e;
+  box-shadow:         3px 3px 5px 6px #222f3e;
+}
+
+.display-4.character-background{
+  margin-top: 6em;
+  font-size: 70px;
+}
+
+.display-4.history{
+  margin-top: 3em;
+  font-size: 70px;
 }
 
 /* history of OOO styling */
@@ -163,3 +204,18 @@ img#ooo{
   box-shadow:         3px 3px 5px 6px #222f3e;
 }
 
+/* characters of OOO styling */
+
+.media{
+  margin: 3em;
+  padding-top: 5em;
+}
+
+hr.bios{
+  border-top: 3px solid rgba(0,0,0,.1);
+}
+
+img.character{
+  height: auto;
+  width: 150px;
+}
