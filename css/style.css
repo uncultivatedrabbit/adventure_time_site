@@ -111,7 +111,7 @@ p.py-4{
 section.page-section{
   padding: 100px;
   height: 550px;
-  background: url("/images/interlude-background.jpg");
+  background: url("../images/interlude-background.jpg");
   
 }
 
